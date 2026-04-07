@@ -1,0 +1,18 @@
+.titulo{
+    text-align: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px
+    ;
+}
+a:hover {
+ color : rgb ( 255 , 255 , 255 );
+ font-size:  20px ;
+ text-shadow : #24d410 0px 0px 10px ;
+ }
+ header{
+    background-color: aqua;
+ }
