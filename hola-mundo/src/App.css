@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .titulo{
     text-align: center;
 }
@@ -8,11 +13,27 @@ ul{
     gap: 20px
     ;
 }
-a:hover {
- color : rgb ( 255 , 255 , 255 );
- font-size:  20px ;
- text-shadow : #24d410 0px 0px 10px ;
- }
  header{
-    background-color: aqua;
+    background-color: rgb(70, 70, 70);
+     color: white;
  }
+ footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+ }
+ aside{
+    flex: 1;
+    background: #24d410;
+    padding: 20px;
+ }
+ .central{
+    display: flex;
+ }
+ .contenedor {
+  text-align: center;
+}
+h2{
+    text-align: center;
+}
