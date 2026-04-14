@@ -1,0 +1,42 @@
+*{
+    margin: 0;   /* Elimina márgenes por defecto */
+    padding: 0;   /* Elimina relleno por defecto */
+    box-sizing: border-box;   /* Hace que el tamaño incluya padding y borde */
+}
+.titulo{
+    text-align: center;  /* Centra el texto */
+}
+/* Estilos para listas */
+ul{
+    list-style: none; /* Quita los puntos de la lista */
+    display: flex;   /* Coloca los elementos en fila */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    gap: 20px /* Espacio entre los elementos */
+    ;
+}
+ header{
+    background-color: rgb(70, 70, 70);  /* Fondo gris oscuro */
+     color: white;   /* Texto blanco */
+ }
+ /* Pie de página */
+ footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+ }
+ /* Barra lateral */
+ aside{
+    flex: 1;   /* Ocupa menos espacio que el main */
+    background: #24d410;  /* Color verde */
+    padding: 20px;  /* Espacio interno */
+ }
+ .central{
+    display: flex; /* Coloca los elementos en fila */
+ }
+ .contenedor {
+  text-align: center;   /* Centra la imagen */
+}
+h2{
+    text-align: center; /* Centra los títulos */
+}
